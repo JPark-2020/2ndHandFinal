@@ -73,12 +73,17 @@ a:visited {
   width: 60px;
   text-align: center;
   max-width: 60px;
+  color: black!important;
+}
+
+.topbarLin {
+  color: black!important; 
 }
 
 .sellLink {
   border: 1px solid black;
   background-color: black;
-  color: white;
+  color: white!important;
   padding: 10px;
   width: 60px;
   text-align: center;

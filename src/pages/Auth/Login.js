@@ -20,7 +20,7 @@ const Login = (props) => {
       <div className="loginImage">
         <img
           className="landingImage"
-          src="assets/images/2ndhandlanding.jpeg"
+          src="assets/images/authpage2.jpeg"
           alt="landingpage image"
         />
       </div>

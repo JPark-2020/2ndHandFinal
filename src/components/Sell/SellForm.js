@@ -27,7 +27,7 @@ const SellForm = () => {
 
   const submitHandler = async (event) => {
     event.preventDefault();
-    const itemInfo =
+    let itemInfo =
       uuidv4();
     const newItem = await sellRef.doc(itemInfo).set({
       item: itemName,
@@ -145,7 +145,9 @@ const SellForm = () => {
         <input type="file" onChange={fileHandler} required />
       </div>
 
-      <button className="sellPublish">Publish</button>
+      <p className="errorText">Note: please give 2 seconds before posting to prevent errors</p>
+
+      <button className="sellPublish">List</button>
     </form>
   );
 };

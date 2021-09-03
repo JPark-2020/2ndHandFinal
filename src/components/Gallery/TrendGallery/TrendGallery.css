@@ -1,0 +1,40 @@
+.trendHeader {
+  padding: 40px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.trendContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.trendOne img {
+  width: 380px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.trendTwo img {
+  width: 380px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.trendThree img {
+  width: 380px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.trendInfo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trendHolder {
+  padding-left: 15%;
+  padding-right: 15%;
+}

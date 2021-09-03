@@ -1,0 +1,37 @@
+.categoryHeader {
+  font-weight: bold;
+  padding: 30px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.categoryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.categoryItem {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.categoryItemImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.categoryItemInfo {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.categoryHolder {
+  padding-left: 15%;
+  padding-right: 15%;
+}

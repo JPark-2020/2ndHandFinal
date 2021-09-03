@@ -1,0 +1,107 @@
+.sellForm h1 {
+    margin-top: 20px; 
+}
+
+.currencyIcon {
+
+  padding: 2px;
+  width: 300px;
+  max-width: 300px; 
+  padding: 5px 2px;
+  margin-right: 30px;
+  padding-right: 2px;
+  border: 1px solid #e1e1e1;
+}
+
+.currencyIcon input {
+  border: none;
+}
+
+.currencyIcon input:focus {
+    outline:none; 
+}
+
+.sellForm {
+  padding-left: 15%;
+  padding-right: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+
+.sellSection {
+  margin-top: 30px;
+}
+
+.sellPublish {
+  width: 100px;
+  padding: 12px;
+  background: black;
+  color: white;
+  margin-top: 20%;
+}
+
+.detailSection input {
+  padding: 5px 2px;
+  margin-right: 30px;
+  width: 400px; 
+  max-width: 400px;
+  margin-top: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#sizes {
+  margin-top: 20px;
+  padding: 5px 2px;
+  margin-right: 30px;
+  width: 406px; 
+  max-width: 406px;
+  border: 1px solid #e1e1e1;
+}
+
+#categories {
+  padding: 5px 2px;
+  margin-right: 30px;
+  padding-right: 2px;
+  width: 406px; 
+  max-width: 406px;
+  border: 1px solid #e1e1e1;
+  
+}
+
+.colorSection input {
+    padding: 5px 2px;
+    margin-right: 30px;
+    padding-right: 2px;
+    width: 400px; 
+    max-width: 400px;
+    border: 1px solid #e1e1e1;
+}
+
+.descriptionSection textarea {
+    margin-top: 20px; 
+    padding: 5px 2px;
+    margin-right: 30px;
+    padding-right: 2px;
+    width: 842px; 
+    max-width: 842px;
+    height: 200px; 
+    border: 1px solid #e1e1e1;
+}
+
+.priceSection input {
+    margin-top: 20px; 
+    width: 300px;
+    max-width: 300px; 
+    padding: 5px 2px;
+    margin-right: 30px;
+    padding-right: 2px;
+}
+
+.imageSection input {
+    margin-top: 20px;
+}
+

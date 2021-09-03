@@ -1,0 +1,101 @@
+.topbarContainer {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  border: 1px solid #e1e1e1;
+  justify-content: space-evenly;
+}
+
+.topbarLeft {
+  flex: 2.5;
+  padding: 25px 0px 25px 0px;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:visited {
+  color: inherit; 
+}
+
+.topbarCenter {
+  flex: 5.5;
+}
+
+.topbarRight {
+  flex: 4;
+}
+
+.searchbarInner {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  padding: 6px;
+}
+
+.searchInput {
+  width: 85%;
+  border: none;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchButton {
+  width: 15%;
+  font-weight: bold;
+  height: 30px;
+}
+
+.topbarLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.topbarLink {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.shopLink {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  max-width: 60px;
+}
+
+.sellLink {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  max-width: 60px;
+}
+/* 
+.cartBadge{
+  z-index: 999;
+  position: relative;
+  right: 15px;
+  bottom: 20px;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: red;
+} */

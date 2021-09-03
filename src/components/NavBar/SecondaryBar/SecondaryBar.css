@@ -1,0 +1,8 @@
+.secondaryItems {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;  
+    border-bottom: 1px solid #E1E1E1;
+    padding: 20px; 
+    width: 100vw; 
+}

@@ -1,0 +1,43 @@
+.footerContainer {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.footerpic {
+  z-index: 100;
+}
+
+.footerpic img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.footerimage2 {
+  position: absolute;
+  left: 75%;
+}
+
+.footerText {
+  position: absolute;
+  font-size: 40px;
+  left: 42%;
+  margin-top: 150px;
+}
+
+.footerButton {
+  padding: 20px;
+  left: 40%;
+  border: none;
+  z-index: 20;
+}
+
+.footerButton:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 1s;
+  color: white;
+}

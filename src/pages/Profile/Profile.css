@@ -1,0 +1,12 @@
+.itemRemove {
+    border: none;
+    color: gray; 
+}
+
+.myItems {
+    border: 2px solid #E1E1E1; 
+    margin-top: 20px; 
+    width: 300px;
+    height: 355px;  
+    text-align: center; 
+}
